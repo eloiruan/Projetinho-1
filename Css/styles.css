@@ -1,10 +1,16 @@
-body{background-color: #330000;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23D18'/%3E%3Cstop offset='1' stop-color='%23330000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FA3' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FA3' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.43'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
-}
+body{background-color: #92bad6;
+    
+    }
 
-.Biografia{color: yellow;}
+.Biografia{ display: inline;
+            color: white;
+            background-color: #176B87;
+            border: solid black 3px;
+            border-radius: 5px;
+            font-weight: bold;
+}   
+
+img{float: left;}
 
 hr{
     border-style: none;
@@ -13,12 +19,28 @@ hr{
     border-width: 5px;
     width: 0%;
 }
-h1{ color: #0dff5e;
-    font-size: 50px;
+.eloi{ color: #bdfbc1;
+    font-size: 100px;
+    font-family: 'Silkscreen', sans-serif;
+    background-color: rgb(12, 55, 62);
+    display: inline;
+    border: solid black 5px;
+    border-radius: 10px;
 }
-h3{ color: #62ffff;
-    font-size: 30px;
+
+.foto{
+    border: solid white 5px;
 }
+
+.inicio{
+    background-color: white;
+    color: black;
+    border: solid black 3px;
+    border-radius: 10px;
+}
+
+
+
 
 p{color: white;
     font-size: 20px;
@@ -36,7 +58,16 @@ ol{color: white;}
         border: #05f5fd;
 }
 
-.trabalho{  color: rgb(251, 255, 0);}
+.trabalho{  color: rgb(255, 255, 254);
+            font-weight: bold;
+}
+
+.trabalho1{
+    color: white;
+    font-weight: bold;
+    border: solid white;
+    border-radius: 10px;
+}
 
 .l{color: red;}
 .Dudu{color: yellow;}
@@ -44,3 +75,100 @@ ol{color: white;}
 .contato{color: white;}
 
 .loiro{color: yellow;}
+
+.fds{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.princess{
+    color: rgb(255, 0, 157);
+    border: black;
+    font-weight: 600;
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    position: relative;
+    left: 5%;
+    
+    
+}   
+
+.hobbies{
+    display: inline;
+    background-color: white;
+    color: black;
+    border: solid black 2px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 100px;
+}
+
+.hobbies1{
+    display: inline;
+    background-color: white;
+    color: black;
+    border: solid black 3px;
+}
+
+.contato{
+    display: inline;
+    background-color: white;
+    color: black;
+    border: solid black 3px;
+}
+
+.lista{
+    display: inline-flex;
+    font-size: 20px;
+   align-items: center;
+}
+
+.skills{display: inline;
+        border: solid rgb(0, 0, 0) 3px;
+        border-radius: 5px;   
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+}
+
+#maneira{display: flex;
+        font-size: 40px;
+        justify-content: center;
+        margin: 0 100px 0 100px;
+        background-color: black;
+        color: white;
+        border: white solid 5px;    
+}
+
+.cursos{display: flex;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        margin: 0 500px 0 500px;
+        border: solid rgb(255, 255, 255) 5px;
+        border-radius: 10px;
+        color: wheat;
+        font-size: 25px;
+}
+
+.conjuntos{
+            display: flex;
+            justify-content: space-around;
+}       
+
+.conjunto{
+            color: rgb(255, 255, 255);
+            font-size: 23px;              
+            font-weight: bold;
+}
+
+.experiencia{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #176B87;
+    margin: 0 100px 0 100px;
+    border: solid black;
+    font-size: 25px;
+}
